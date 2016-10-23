@@ -1,0 +1,13 @@
+mean:  
+  build: . 
+  links:
+    - db
+  ports:
+    - "80:3000"
+db:  
+  image: mongo
+  ports:
+    - "27017:27017"
+  volumes:
+    - /mnt/docker/data/mongodb/mongo:/data/db
+  hostname : mongdb
