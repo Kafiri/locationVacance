@@ -4,9 +4,22 @@
     <meta charset="utf8">
     <base href="/">
     <title>akaML powered by MEAN stack</title>
-    <link rel="stylesheet" type="text/css" href="scripts/lib/angular-toastr/dist/angular-toastr.css" />
-    <link rel="stylesheet" href="scripts/lib/bootstrap/dist/css/bootstrap.css">
+
+    <!-- build:css({.tmp,src/public}) styles/main.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="lib/foundation-icon-fonts/foundation-icons.css" />
+    <link rel="stylesheet" href="lib/angular-loading-bar/build/loading-bar.css" />
+    <link rel="stylesheet" href="lib/angular-ui-select/dist/select.css" />
+    <link rel="stylesheet" href="lib/angular-toastr/dist/angular-toastr.css" />
+    <link rel="stylesheet" href="lib/selectize/dist/css/selectize.default.css" />
+    <link rel="stylesheet" href="lib/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="lib/swiper/dist/css/swiper.css" />
+    <link rel="stylesheet" href="lib/mdPickers/dist/mdPickers.min.css" />
+    <!-- endbower -->
+    <!-- inject:css -->
     <link rel="stylesheet" href="css/app.css">
+    <!-- endinject -->
+    <!-- endbuild -->
     <!-- Icons -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
@@ -58,6 +71,5 @@
         </div>
       </footer>
     <script data-main="scripts/src/main.js" src="scripts/lib/requirejs/require.js"></script>
-
 </body>
 </html>
